@@ -1,0 +1,29 @@
+/* Body */
+html body{
+  background-color: rgb(245, 249, 253);
+}
+
+/* Texto principal h2 */
+html body div#app h1{
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+/* Input de pesquisa do nome */
+html body div#app input#search {
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  -webkit-box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.13);
+  -moz-box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.13);
+  box-shadow: -1px 1px 17px 0px rgba(0,0,0,0.13);
+}
+
+/* Nenhum resultado encontrado */
+
+html body div#app div.text-center.mt-2 div.mt-4{
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+}
